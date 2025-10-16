@@ -33,6 +33,18 @@
   }
 }
 
+.album-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media (max-width: 800px) {
+  .album-container {
+    flex-direction: column;
+  }
+}
+
 .card {
   padding: 2em;
 }
